@@ -5,7 +5,9 @@
 }
 
 .container {
-  width: 410px;
+  width: 380px;
+  border:#ddd 1px solid;
+  margin:0;
 }
 
 .center {
@@ -16,8 +18,8 @@
   height: 28px;
 }
 
-.logo {
-  padding-left: 30px;
+.logo img {
+  float: right;
 }
 
 .copy {
@@ -27,4 +29,15 @@
 
 .padded {
   padding: 0px 10px;
+}
+
+.row {
+  margin:0;
+}
+.span5 {
+  margin:0;
+}
+
+.span2 {
+  margin:0;
 }
